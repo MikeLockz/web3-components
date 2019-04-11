@@ -1,10 +1,10 @@
 {
   "name": "rimble-web3-components",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Web3 React components built with Rimble UI",
-  "author": "MikeLockz",
+  "author": "ConsenSys",
   "license": "MIT",
-  "repository": "MikeLockz/rimble-web3-components",
+  "repository": "ConsenSys/rimble-web3-components",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -24,7 +24,9 @@
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0"
+    "react-dom": "^15.0.0 || ^16.0.0",
+    "rimble-ui": "^0.6.1",
+    "styled-components": ">= 4"
   },
   "devDependencies": {
     "@svgr/rollup": "^2.4.1",
@@ -47,6 +49,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
+    "rimble-ui": "^0.6.1",
     "rollup": "^0.64.1",
     "rollup-plugin-babel": "^3.0.7",
     "rollup-plugin-commonjs": "^9.1.3",
