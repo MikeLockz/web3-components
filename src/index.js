@@ -10,7 +10,7 @@ class ConnectionBanner extends Component {
   };
 
   render() {
-    const { text } = this.props;
+    const { text, currentNetwork, requiredNetwork } = this.props;
 
     const bannerStyle = {
       position: "fixed",
@@ -32,10 +32,10 @@ class ConnectionBanner extends Component {
               Looks like you're on the wrong network
             </Text>
             <Text>
-              You should be on the _____ network. You are currently connected to
-              the{" "}
+              You should be on the {requiredNetwork} network. You are currently
+              connected to the{" "}
               <Text.span style={{ textTransform: "capitalize" }}>
-                _______
+                {currentNetwork}
               </Text.span>{" "}
               Network - switch in your MetaMask extension.
             </Text>
